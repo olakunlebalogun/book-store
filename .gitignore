@@ -5,7 +5,7 @@ target/
 !**/src/test/**/target/
 
 ### Ignored files ###
-
+project-layout.txt
 ### STS ###
 .apt_generated
 .classpath
