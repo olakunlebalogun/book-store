@@ -1,0 +1,13 @@
+Create a Book project
+That has other entity to form a relation
+write a test for each controller, service and repository
+Use Thymeleaf for the View and make sure you display the information accordingly
+
+
+
+connecting Github issues and link to the project locally
+get the diagrammatic representation of the project
+Add Swagger to the project
+Add CI/CD pipeline to the project
+Add devtools
+

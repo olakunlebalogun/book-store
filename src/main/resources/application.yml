@@ -1,4 +1,5 @@
 server:
+<<<<<<< HEAD
   port: 7575
 spring:
   mvc:
@@ -14,15 +15,43 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create-drop
+=======
+  port: 8000
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/book_store
+    username: root
+    password: ola24oluwa
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: Book Store Application
+  h2:
+    console:
+      enabled:
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled:  true
+  jpa:
+    hibernate:
+      ddl-auto: create
+>>>>>>> 749852929b97f8064cb9a6b16523dd54097bf1f0
       use-new-id-generator-mappings: false
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
         show_sql: true
         format_sql: true
+<<<<<<< HEAD
 
   devtools:
     livereload:
       enabled: true
     restart:
       enabled: true
+=======
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+>>>>>>> 749852929b97f8064cb9a6b16523dd54097bf1f0
